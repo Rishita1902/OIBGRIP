@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    background-color: white;
+    background-image: linear-gradient(rgb(204, 183, 183), #944b4b);
+    background-size: 1350px 1000px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    color: #682424;
+}
+
+.div_input {
+     margin-left: 136px ;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.div_input .input {
+    height: 70px;
+    width: 570px;
+    font-size: 33px;
+    color: #601111;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 5px solid;
+}
+
+.addbutton {
+    height: 75px;
+    width: 70px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #f7eeee;
+    margin: 30px;
+    background-color: brown;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -11px;
+}
+
+.item {
+    padding: 5.5px;
+    margin-bottom: 11.5px;
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item_input {
+    background: none;
+    outline: none;
+    color: #601111;
+    border: none;
+    width: 475px;
+    font-size: 27px;
+}
+
+.edit_button {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    color: #265426;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.remove {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    color: #992819;
+    cursor: pointer;
+    border-radius: 12px;
+}
